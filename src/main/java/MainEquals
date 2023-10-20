@@ -1,0 +1,54 @@
+public class MainEquals {
+    public static void main(String[] args) {
+
+    Integer i1 = 128;
+    Integer i2 = 128;
+    System.out.println(i1.equals(i2));
+
+    Integer i1 = 128;
+    Integer i2 = i1;
+    System.out.println(i1.equals(i2)); true
+    
+    Integer i1 = 128;
+    Integer i2 = i1;
+    System.out.println(i1 == i2); true
+    
+    Integer i1 = 128;
+    Integer i2 = i1;
+    i1 = 127;
+    System.out.println(i1 == i2); 
+
+    Integer i1 = 128;
+    System.out.println(i1.equals(128));
+
+    Integer i1 = 128;
+    System.out.println(i1 == 128); 
+
+    Integer i1 = 128;
+    System.out.println(i1.hashCode() == 128.hashCode());
+
+    Integer i1 = 128;
+    Integer i2 = 128;
+    System.out.println(i1.hashCode() == i2.hashCode());
+
+    Integer i1 = 128;
+    Integer i2 = 128;
+    System.out.println(i1.hashCode().equals(i2.hashCode()));
+
+    Integer i1 = 128;
+    Integer i2 = 128;
+    System.out.println(i1 == i2); 
+
+    Integer i1 = 127;
+    Integer i2 = 127;
+    System.out.println(i1 == i2); 
+
+    int i1 = 128;
+    int i2 = 128;
+    System.out.println(i1 == i2);
+    
+    int i1 = 127;
+    int i2 = 127;
+    System.out.println(i1 == i2); 
+    }
+}
